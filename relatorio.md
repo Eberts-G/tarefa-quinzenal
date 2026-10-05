@@ -4,7 +4,7 @@
 
 - **Problema escolhido:** 1 – Bucket Sort
 - **Disciplina:** Sistemas Operacionais (Prof. Lucca Abbado Neres) – Tarefa Semanal
-- **Integrantes:** _(preencher: nome completo de cada integrante do grupo, de 3 a 4 estudantes)_
+- **Integrantes:** Ana Clara Cavasotto Polla, Bruno Martins Rauber, Gisela Talita Eberts, Guilherme Ribeiro Maciel, Matheus Leverentz de Lara
 
 ## Máquina e ambiente
 
@@ -32,7 +32,7 @@ A configuração "máximo de CPUs lógicas" usa, portanto, **10 threads**. Esse 
 
 **Configurações:** sequencial, 2, 4, 8 threads e o máximo de CPUs lógicas online (`--max`, 10 threads nesta máquina).
 
-**Repetições:** pelo menos 3 por combinação entrada × configuração (número exato na coluna `repeticoes` de `resultados/resumo.csv`). Os tempos individuais estão em `resultados/benchmark.csv`.
+**Repetições:** 10 por combinação entrada × configuração (o mínimo exigido é 3). Os tempos individuais estão em `resultados/benchmark.csv`.
 
 **Critério de tempo (igual nas duas versões):** `clock_gettime(CLOCK_MONOTONIC)` ao redor de toda a ordenação, depois da leitura do arquivo. Na paralela, o intervalo inclui criação das threads, bucket sort dos blocos, join e merge. Ficam fora da medição: leitura do arquivo, geração da sequência de referência e verificação.
 
@@ -71,20 +71,20 @@ A configuração "máximo de CPUs lógicas" usa, portanto, **10 threads**. Esse 
 
 **Entrada média (120 000 elementos): ganho moderado, que diminui com mais threads.** O speedup foi 1,66 com 2 threads (eficiência 0,83), 1,64 com 4, 1,28 com 8 e 1,11 com 10. O melhor resultado ficou em 2 a 4 threads, e a partir daí o ganho cai.
 
-**Entrada grande (400 000 elementos): melhor ganho, com saturação.** O melhor resultado foi com 4 threads (speedup 1,84, eficiência 0,46), seguido de 8 (1,70), 10 (1,63) e 2 (1,56). De 4 a 10 threads os tempos médios (0,0670 s, 0,0726 s e 0,0758 s) diferem menos do que os desvios padrão (0,007 a 0,016 s), então o desempenho se estabiliza: usar mais threads que 4 não trouxe ganho mensurável.
+**Entrada grande (400 000 elementos): melhor ganho, com saturação.** O melhor resultado foi com 4 threads (speedup 1,84, eficiência 0,46), seguido de 8 (1,70), 10 (1,63) e 2 (1,56). De 4 a 10 threads os tempos médios (0,0670 s, 0,0726 s e 0,0758 s) diferem pouco, na mesma ordem de grandeza dos desvios padrão (0,007 a 0,016 s), então o desempenho se estabiliza: usar mais threads que 4 não trouxe ganho relevante.
 
 **Eficiência.** A eficiência cai em todas as entradas à medida que `p` aumenta. Com 10 threads é de 0,08 a 0,16. O ganho existe, mas muito abaixo do ideal (`Sp = p`). Causas prováveis, não isoladas em testes separados:
 - o merge final é sequencial e seu custo cresce com o número de blocos, pois percorre os `p` blocos a cada elemento escrito;
 - o processador informa 5 núcleos com 2 threads por núcleo, então com mais threads que núcleos físicos duas threads dividem a mesma unidade de execução e o mesmo cache;
 - as threads disputam largura de banda de memória, e o WSL 2 compete com o Windows pelos mesmos núcleos.
 
-**Variabilidade.** Vários desvios padrão são altos em relação à média (por exemplo, `media.txt` sequencial: 0,0202 ± 0,0054 s; `grande.txt` com 2 threads: 0,0792 ± 0,0166 s). Uma execução anterior do mesmo experimento, na mesma máquina e com o mesmo código, deu valores bem diferentes: por exemplo, speedup de 2,85 com 10 threads em `media.txt` e de 0,94 com 8 threads em `grande.txt`, contra 1,11 e 1,70 nesta execução. Essa execução anterior não foi preservada. A diferença mostra que, com poucas repetições e tempos de milissegundos no WSL 2, os resultados individuais variam bastante entre execuções. Só as tendências gerais se mantiveram: nenhum ganho na entrada pequena, ganho moderado nas maiores e queda de eficiência com mais threads.
+**Variabilidade.** Vários desvios padrão são altos em relação à média (por exemplo, `media.txt` sequencial: 0,0202 ± 0,0054 s; `grande.txt` com 2 threads: 0,0792 ± 0,0166 s). Uma execução anterior do mesmo experimento (com 3 repetições), na mesma máquina e com o mesmo código, deu valores bem diferentes: por exemplo, speedup de 2,85 com 10 threads em `media.txt` e de 0,94 com 8 threads em `grande.txt`, contra 1,11 e 1,70 nesta execução. Essa execução anterior não foi preservada. A diferença mostra que, com tempos de milissegundos no WSL 2, os resultados variam bastante entre execuções, e que 3 repetições eram poucas; por isso a execução final usa 10. Só as tendências gerais se mantiveram: nenhum ganho na entrada pequena, ganho moderado nas maiores e queda de eficiência com mais threads.
 
 **Conclusão.** Mais threads não significa melhor desempenho. Nesta máquina o maior speedup observado foi 1,84 (`grande.txt`, 4 threads); para a entrada pequena a versão paralela não compensou, e para as maiores o melhor número de threads ficou entre 2 e 4. Usar as 10 CPUs lógicas não foi melhor que usar 4.
 
 ## Limitações
 
-- Poucas repetições por configuração (o número exato está na coluna `repeticoes` de `resultados/resumo.csv`), o que dá estimativas de desvio padrão pouco robustas. O script aceita mais, com `REPETICOES=10 ./benchmark_bucket_sort.sh`.
+- 10 repetições por configuração: melhor que o mínimo de 3, mas os desvios padrão continuam altos para as entradas pequenas e médias (tempos de poucos milissegundos).
 - Execução em WSL 2, que pode introduzir ruído de escalonamento.
 - Merge final sequencial com custo proporcional ao número de threads: é uma escolha de projeto que limita o speedup.
 - As causas da perda de eficiência com muitas threads são hipóteses; não foram medidas em separado (por exemplo, medindo o tempo do merge isoladamente).
