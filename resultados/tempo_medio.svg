@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="600.0" y="32" text-anchor="middle" font-size="20" font-family="Arial" font-weight="bold">Tempo médio de ordenação: sequencial x pthreads</text>
+<text x="238.33333333333334" y="60" text-anchor="middle" font-size="14" font-family="Arial" font-weight="bold">pequena.txt</text>
+<line x1="90.0" y1="360" x2="386.6666666666667" y2="360" stroke="black" stroke-width="1.2"/>
+<line x1="90.0" y1="80" x2="90.0" y2="360" stroke="black" stroke-width="1.2"/>
+<text x="38.0" y="220.0" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 38.0 220.0)">Tempo (s)</text>
+<line x1="90.0" y1="360.0" x2="386.6666666666667" y2="360.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="84.0" y="364.0" text-anchor="end" font-size="10" font-family="Arial">0</text>
+<line x1="90.0" y1="290.0" x2="386.6666666666667" y2="290.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="84.0" y="294.0" text-anchor="end" font-size="10" font-family="Arial">0.001</text>
+<line x1="90.0" y1="220.0" x2="386.6666666666667" y2="220.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="84.0" y="224.0" text-anchor="end" font-size="10" font-family="Arial">0.002</text>
+<line x1="90.0" y1="150.0" x2="386.6666666666667" y2="150.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="84.0" y="154.0" text-anchor="end" font-size="10" font-family="Arial">0.003</text>
+<line x1="90.0" y1="80.0" x2="386.6666666666667" y2="80.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="84.0" y="84.0" text-anchor="end" font-size="10" font-family="Arial">0.004</text>
+<rect x="99.49333333333334" y="213.232085" width="40.34666666666667" height="146.767915" fill="#0072B2"/>
+<line x1="119.66666666666667" y1="176.69469361635143" x2="119.66666666666667" y2="249.76947638364857" stroke="black" stroke-width="1.2"/>
+<line x1="114.66666666666667" y1="176.69469361635143" x2="124.66666666666667" y2="176.69469361635143" stroke="black" stroke-width="1.2"/>
+<line x1="114.66666666666667" y1="249.76947638364857" x2="124.66666666666667" y2="249.76947638364857" stroke="black" stroke-width="1.2"/>
+<text x="119.66666666666667" y="171.69469361635143" text-anchor="middle" font-size="10" font-family="Arial">0.0021</text>
+<text x="119.66666666666667" y="376" text-anchor="middle" font-size="10" font-family="Arial">Seq.</text>
+<rect x="158.82666666666668" y="194.43829599999998" width="40.34666666666667" height="165.56170400000002" fill="#E69F00"/>
+<line x1="179.00000000000003" y1="146.3402727473122" x2="179.00000000000003" y2="242.53631925268775" stroke="black" stroke-width="1.2"/>
+<line x1="174.00000000000003" y1="146.3402727473122" x2="184.00000000000003" y2="146.3402727473122" stroke="black" stroke-width="1.2"/>
+<line x1="174.00000000000003" y1="242.53631925268775" x2="184.00000000000003" y2="242.53631925268775" stroke="black" stroke-width="1.2"/>
+<text x="179.00000000000003" y="141.3402727473122" text-anchor="middle" font-size="10" font-family="Arial">0.0024</text>
+<text x="179.00000000000003" y="376" text-anchor="middle" font-size="10" font-family="Arial">2</text>
+<rect x="218.16000000000003" y="219.088656" width="40.34666666666667" height="140.911344" fill="#009E73"/>
+<line x1="238.33333333333337" y1="177.64280850977184" x2="238.33333333333337" y2="260.53450349022813" stroke="black" stroke-width="1.2"/>
+<line x1="233.33333333333337" y1="177.64280850977184" x2="243.33333333333337" y2="177.64280850977184" stroke="black" stroke-width="1.2"/>
+<line x1="233.33333333333337" y1="260.53450349022813" x2="243.33333333333337" y2="260.53450349022813" stroke="black" stroke-width="1.2"/>
+<text x="238.33333333333337" y="172.64280850977184" text-anchor="middle" font-size="10" font-family="Arial">0.0020</text>
+<text x="238.33333333333337" y="376" text-anchor="middle" font-size="10" font-family="Arial">4</text>
+<rect x="277.49333333333334" y="171.634214" width="40.34666666666667" height="188.365786" fill="#D55E00"/>
+<line x1="297.6666666666667" y1="118.00752356761876" x2="297.6666666666667" y2="225.26090443238124" stroke="black" stroke-width="1.2"/>
+<line x1="292.6666666666667" y1="118.00752356761876" x2="302.6666666666667" y2="118.00752356761876" stroke="black" stroke-width="1.2"/>
+<line x1="292.6666666666667" y1="225.26090443238124" x2="302.6666666666667" y2="225.26090443238124" stroke="black" stroke-width="1.2"/>
+<text x="297.6666666666667" y="113.00752356761876" text-anchor="middle" font-size="10" font-family="Arial">0.0027</text>
+<text x="297.6666666666667" y="376" text-anchor="middle" font-size="10" font-family="Arial">8</text>
+<rect x="336.8266666666667" y="179.748579" width="40.34666666666667" height="180.251421" fill="#CC79A7"/>
+<line x1="357.00000000000006" y1="132.1738167639041" x2="357.00000000000006" y2="227.32334123609587" stroke="black" stroke-width="1.2"/>
+<line x1="352.00000000000006" y1="132.1738167639041" x2="362.00000000000006" y2="132.1738167639041" stroke="black" stroke-width="1.2"/>
+<line x1="352.00000000000006" y1="227.32334123609587" x2="362.00000000000006" y2="227.32334123609587" stroke="black" stroke-width="1.2"/>
+<text x="357.00000000000006" y="127.17381676390411" text-anchor="middle" font-size="10" font-family="Arial">0.0026</text>
+<text x="357.00000000000006" y="376" text-anchor="middle" font-size="10" font-family="Arial">Máx</text>
+<text x="625.0" y="60" text-anchor="middle" font-size="14" font-family="Arial" font-weight="bold">media.txt</text>
+<line x1="476.6666666666667" y1="360" x2="773.3333333333334" y2="360" stroke="black" stroke-width="1.2"/>
+<line x1="476.6666666666667" y1="80" x2="476.6666666666667" y2="360" stroke="black" stroke-width="1.2"/>
+<text x="424.6666666666667" y="220.0" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 424.6666666666667 220.0)">Tempo (s)</text>
+<line x1="476.6666666666667" y1="360.0" x2="773.3333333333334" y2="360.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="470.6666666666667" y="364.0" text-anchor="end" font-size="10" font-family="Arial">0</text>
+<line x1="476.6666666666667" y1="290.0" x2="773.3333333333334" y2="290.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="470.6666666666667" y="294.0" text-anchor="end" font-size="10" font-family="Arial">0.0075</text>
+<line x1="476.6666666666667" y1="220.0" x2="773.3333333333334" y2="220.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="470.6666666666667" y="224.0" text-anchor="end" font-size="10" font-family="Arial">0.015</text>
+<line x1="476.6666666666667" y1="150.0" x2="773.3333333333334" y2="150.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="470.6666666666667" y="154.0" text-anchor="end" font-size="10" font-family="Arial">0.0225</text>
+<line x1="476.6666666666667" y1="80.0" x2="773.3333333333334" y2="80.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="470.6666666666667" y="84.0" text-anchor="end" font-size="10" font-family="Arial">0.03</text>
+<rect x="486.16" y="171.4186112" width="40.34666666666667" height="188.5813888" fill="#0072B2"/>
+<line x1="506.33333333333337" y1="121.33607396111074" x2="506.33333333333337" y2="221.50114843888926" stroke="black" stroke-width="1.2"/>
+<line x1="501.33333333333337" y1="121.33607396111074" x2="511.33333333333337" y2="121.33607396111074" stroke="black" stroke-width="1.2"/>
+<line x1="501.33333333333337" y1="221.50114843888926" x2="511.33333333333337" y2="221.50114843888926" stroke="black" stroke-width="1.2"/>
+<text x="506.33333333333337" y="116.33607396111074" text-anchor="middle" font-size="10" font-family="Arial">0.0202</text>
+<text x="506.33333333333337" y="376" text-anchor="middle" font-size="10" font-family="Arial">Seq.</text>
+<rect x="545.4933333333333" y="246.6084196" width="40.34666666666667" height="113.3915804" fill="#E69F00"/>
+<line x1="565.6666666666666" y1="216.66255895726164" x2="565.6666666666666" y2="276.5542802427384" stroke="black" stroke-width="1.2"/>
+<line x1="560.6666666666666" y1="216.66255895726164" x2="570.6666666666666" y2="216.66255895726164" stroke="black" stroke-width="1.2"/>
+<line x1="560.6666666666666" y1="276.5542802427384" x2="570.6666666666666" y2="276.5542802427384" stroke="black" stroke-width="1.2"/>
+<text x="565.6666666666666" y="211.66255895726164" text-anchor="middle" font-size="10" font-family="Arial">0.0121</text>
+<text x="565.6666666666666" y="376" text-anchor="middle" font-size="10" font-family="Arial">2</text>
+<rect x="604.8266666666667" y="244.8919692" width="40.34666666666667" height="115.1080308" fill="#009E73"/>
+<line x1="625.0" y1="219.98902994984792" x2="625.0" y2="269.7949084501521" stroke="black" stroke-width="1.2"/>
+<line x1="620.0" y1="219.98902994984792" x2="630.0" y2="219.98902994984792" stroke="black" stroke-width="1.2"/>
+<line x1="620.0" y1="269.7949084501521" x2="630.0" y2="269.7949084501521" stroke="black" stroke-width="1.2"/>
+<text x="625.0" y="214.98902994984792" text-anchor="middle" font-size="10" font-family="Arial">0.0123</text>
+<text x="625.0" y="376" text-anchor="middle" font-size="10" font-family="Arial">4</text>
+<rect x="664.1600000000001" y="212.67266879999997" width="40.34666666666667" height="147.32733120000003" fill="#D55E00"/>
+<line x1="684.3333333333334" y1="180.23853425643287" x2="684.3333333333334" y2="245.1068033435671" stroke="black" stroke-width="1.2"/>
+<line x1="679.3333333333334" y1="180.23853425643287" x2="689.3333333333334" y2="180.23853425643287" stroke="black" stroke-width="1.2"/>
+<line x1="679.3333333333334" y1="245.1068033435671" x2="689.3333333333334" y2="245.1068033435671" stroke="black" stroke-width="1.2"/>
+<text x="684.3333333333334" y="175.23853425643287" text-anchor="middle" font-size="10" font-family="Arial">0.0158</text>
+<text x="684.3333333333334" y="376" text-anchor="middle" font-size="10" font-family="Arial">8</text>
+<rect x="723.4933333333333" y="189.68789346666668" width="40.34666666666667" height="170.31210653333332" fill="#CC79A7"/>
+<line x1="743.6666666666666" y1="146.898836670182" x2="743.6666666666666" y2="232.47695026315137" stroke="black" stroke-width="1.2"/>
+<line x1="738.6666666666666" y1="146.898836670182" x2="748.6666666666666" y2="146.898836670182" stroke="black" stroke-width="1.2"/>
+<line x1="738.6666666666666" y1="232.47695026315137" x2="748.6666666666666" y2="232.47695026315137" stroke="black" stroke-width="1.2"/>
+<text x="743.6666666666666" y="141.898836670182" text-anchor="middle" font-size="10" font-family="Arial">0.0182</text>
+<text x="743.6666666666666" y="376" text-anchor="middle" font-size="10" font-family="Arial">Máx</text>
+<text x="1011.6666666666667" y="60" text-anchor="middle" font-size="14" font-family="Arial" font-weight="bold">grande.txt</text>
+<line x1="863.3333333333334" y1="360" x2="1160.0" y2="360" stroke="black" stroke-width="1.2"/>
+<line x1="863.3333333333334" y1="80" x2="863.3333333333334" y2="360" stroke="black" stroke-width="1.2"/>
+<text x="811.3333333333334" y="220.0" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 811.3333333333334 220.0)">Tempo (s)</text>
+<line x1="863.3333333333334" y1="360.0" x2="1160.0" y2="360.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="857.3333333333334" y="364.0" text-anchor="end" font-size="10" font-family="Arial">0</text>
+<line x1="863.3333333333334" y1="290.0" x2="1160.0" y2="290.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="857.3333333333334" y="294.0" text-anchor="end" font-size="10" font-family="Arial">0.0375</text>
+<line x1="863.3333333333334" y1="220.0" x2="1160.0" y2="220.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="857.3333333333334" y="224.0" text-anchor="end" font-size="10" font-family="Arial">0.075</text>
+<line x1="863.3333333333334" y1="150.0" x2="1160.0" y2="150.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="857.3333333333334" y="154.0" text-anchor="end" font-size="10" font-family="Arial">0.113</text>
+<line x1="863.3333333333334" y1="80.0" x2="1160.0" y2="80.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="857.3333333333334" y="84.0" text-anchor="end" font-size="10" font-family="Arial">0.15</text>
+<rect x="872.8266666666667" y="129.79207445333336" width="40.34666666666667" height="230.20792554666664" fill="#0072B2"/>
+<line x1="893.0" y1="109.91352703227673" x2="893.0" y2="149.67062187439004" stroke="black" stroke-width="1.2"/>
+<line x1="888.0" y1="109.91352703227673" x2="898.0" y2="109.91352703227673" stroke="black" stroke-width="1.2"/>
+<line x1="888.0" y1="149.67062187439004" x2="898.0" y2="149.67062187439004" stroke="black" stroke-width="1.2"/>
+<text x="893.0" y="104.91352703227673" text-anchor="middle" font-size="10" font-family="Arial">0.1233</text>
+<text x="893.0" y="376" text-anchor="middle" font-size="10" font-family="Arial">Seq.</text>
+<rect x="932.1600000000001" y="212.15272933333335" width="40.34666666666667" height="147.84727066666665" fill="#E69F00"/>
+<line x1="952.3333333333334" y1="181.21920679871997" x2="952.3333333333334" y2="243.08625186794674" stroke="black" stroke-width="1.2"/>
+<line x1="947.3333333333334" y1="181.21920679871997" x2="957.3333333333334" y2="181.21920679871997" stroke="black" stroke-width="1.2"/>
+<line x1="947.3333333333334" y1="243.08625186794674" x2="957.3333333333334" y2="243.08625186794674" stroke="black" stroke-width="1.2"/>
+<text x="952.3333333333334" y="176.21920679871997" text-anchor="middle" font-size="10" font-family="Arial">0.0792</text>
+<text x="952.3333333333334" y="376" text-anchor="middle" font-size="10" font-family="Arial">2</text>
+<rect x="991.4933333333333" y="234.93850064000003" width="40.34666666666667" height="125.06149935999998" fill="#009E73"/>
+<line x1="1011.6666666666666" y1="221.80206229807416" x2="1011.6666666666666" y2="248.07493898192587" stroke="black" stroke-width="1.2"/>
+<line x1="1006.6666666666666" y1="221.80206229807416" x2="1016.6666666666666" y2="221.80206229807416" stroke="black" stroke-width="1.2"/>
+<line x1="1006.6666666666666" y1="248.07493898192587" x2="1016.6666666666666" y2="248.07493898192587" stroke="black" stroke-width="1.2"/>
+<text x="1011.6666666666666" y="216.80206229807416" text-anchor="middle" font-size="10" font-family="Arial">0.0670</text>
+<text x="1011.6666666666666" y="376" text-anchor="middle" font-size="10" font-family="Arial">4</text>
+<rect x="1050.8266666666668" y="224.46259632000002" width="40.34666666666667" height="135.53740367999998" fill="#D55E00"/>
+<line x1="1071.0000000000002" y1="210.12891053123593" x2="1071.0000000000002" y2="238.7962821087641" stroke="black" stroke-width="1.2"/>
+<line x1="1066.0000000000002" y1="210.12891053123593" x2="1076.0000000000002" y2="210.12891053123593" stroke="black" stroke-width="1.2"/>
+<line x1="1066.0000000000002" y1="238.7962821087641" x2="1076.0000000000002" y2="238.7962821087641" stroke="black" stroke-width="1.2"/>
+<text x="1071.0000000000002" y="205.12891053123593" text-anchor="middle" font-size="10" font-family="Arial">0.0726</text>
+<text x="1071.0000000000002" y="376" text-anchor="middle" font-size="10" font-family="Arial">8</text>
+<rect x="1110.16" y="218.42037925333338" width="40.34666666666667" height="141.57962074666662" fill="#CC79A7"/>
+<line x1="1130.3333333333335" y1="188.42295366605563" x2="1130.3333333333335" y2="248.4178048406111" stroke="black" stroke-width="1.2"/>
+<line x1="1125.3333333333335" y1="188.42295366605563" x2="1135.3333333333335" y2="188.42295366605563" stroke="black" stroke-width="1.2"/>
+<line x1="1125.3333333333335" y1="248.4178048406111" x2="1135.3333333333335" y2="248.4178048406111" stroke="black" stroke-width="1.2"/>
+<text x="1130.3333333333335" y="183.42295366605563" text-anchor="middle" font-size="10" font-family="Arial">0.0758</text>
+<text x="1130.3333333333335" y="376" text-anchor="middle" font-size="10" font-family="Arial">Máx</text>
+<rect x="225.0" y="440" width="12" height="12" fill="#0072B2"/>
+<text x="243.0" y="451" font-size="11" font-family="Arial">Sequencial</text>
+<rect x="375.0" y="440" width="12" height="12" fill="#E69F00"/>
+<text x="393.0" y="451" font-size="11" font-family="Arial">2 threads</text>
+<rect x="525.0" y="440" width="12" height="12" fill="#009E73"/>
+<text x="543.0" y="451" font-size="11" font-family="Arial">4 threads</text>
+<rect x="675.0" y="440" width="12" height="12" fill="#D55E00"/>
+<text x="693.0" y="451" font-size="11" font-family="Arial">8 threads</text>
+<rect x="825.0" y="440" width="12" height="12" fill="#CC79A7"/>
+<text x="843.0" y="451" font-size="11" font-family="Arial">Máx. CPUs lógicas (10)</text>
+<text x="600.0" y="480" text-anchor="middle" font-size="11" font-family="Arial" fill="#444444">Barras = média das repetições; traço vertical = ± 1 desvio padrão; cada gráfico tem escala própria</text>
+</svg>

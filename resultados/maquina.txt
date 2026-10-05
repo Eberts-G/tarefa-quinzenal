@@ -1,0 +1,13 @@
+Data: 2026-10-05 00:55:30
+Kernel: Linux 6.18.33.2-microsoft-standard-WSL2 x86_64 GNU/Linux
+CPU(s):                                  10
+On-line CPU(s) list:                     0-9
+Model name:                              13th Gen Intel(R) Core(TM) i5-13420H
+Thread(s) per core:                      2
+Core(s) per socket:                      5
+Socket(s):                               1
+Memória: 7.6Gi
+CPUs lógicas online (sysconf): 10
+Compilador: gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Opções: -Wall -Wextra -O2 -std=c11 (+ -pthread na versão paralela)
+Repetições por configuração: 10

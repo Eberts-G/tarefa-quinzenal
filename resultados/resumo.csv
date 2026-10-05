@@ -1,0 +1,16 @@
+arquivo,configuracao,threads,repeticoes,media_s,desvio_padrao_s,speedup,eficiencia
+entradas/pequena.txt,seq,1,10,0.002096684,0.000521963,1.000,1.000
+entradas/pequena.txt,2,2,10,0.002365167,0.000687115,0.886,0.443
+entradas/pequena.txt,4,4,10,0.002013019,0.000592084,1.042,0.260
+entradas/pequena.txt,8,8,10,0.002690940,0.000766096,0.779,0.097
+entradas/pequena.txt,max,10,10,0.002575020,0.000679639,0.814,0.081
+entradas/media.txt,seq,1,10,0.020205149,0.005365986,1.000,1.000
+entradas/media.txt,2,2,10,0.012149098,0.003208485,1.663,0.832
+entradas/media.txt,4,4,10,0.012333003,0.002668172,1.638,0.410
+entradas/media.txt,8,8,10,0.015785071,0.003475086,1.280,0.160
+entradas/media.txt,max,10,10,0.018247726,0.004584542,1.107,0.111
+entradas/grande.txt,seq,1,10,0.123325674,0.010649222,1.000,1.000
+entradas/grande.txt,2,2,10,0.079203895,0.016571530,1.557,0.779
+entradas/grande.txt,4,4,10,0.066997232,0.007037378,1.841,0.460
+entradas/grande.txt,8,8,10,0.072609323,0.007678760,1.698,0.212
+entradas/grande.txt,max,10,10,0.075846225,0.016070049,1.626,0.163

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="600.0" y="32" text-anchor="middle" font-size="20" font-family="Arial" font-weight="bold">Speedup (Tseq / Tp) por configuração</text>
+<text x="238.33333333333334" y="60" text-anchor="middle" font-size="14" font-family="Arial" font-weight="bold">pequena.txt</text>
+<line x1="90.0" y1="360" x2="386.6666666666667" y2="360" stroke="black" stroke-width="1.2"/>
+<line x1="90.0" y1="80" x2="90.0" y2="360" stroke="black" stroke-width="1.2"/>
+<text x="38.0" y="220.0" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 38.0 220.0)">Speedup</text>
+<line x1="90.0" y1="360.0" x2="386.6666666666667" y2="360.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="84.0" y="364.0" text-anchor="end" font-size="10" font-family="Arial">0</text>
+<line x1="90.0" y1="290.0" x2="386.6666666666667" y2="290.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="84.0" y="294.0" text-anchor="end" font-size="10" font-family="Arial">0.5</text>
+<line x1="90.0" y1="220.0" x2="386.6666666666667" y2="220.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="84.0" y="224.0" text-anchor="end" font-size="10" font-family="Arial">1</text>
+<line x1="90.0" y1="150.0" x2="386.6666666666667" y2="150.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="84.0" y="154.0" text-anchor="end" font-size="10" font-family="Arial">1.5</text>
+<line x1="90.0" y1="80.0" x2="386.6666666666667" y2="80.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="84.0" y="84.0" text-anchor="end" font-size="10" font-family="Arial">2</text>
+<line x1="90.0" y1="220.0" x2="386.6666666666667" y2="220.0" stroke="#444444" stroke-width="1" stroke-dasharray="5,4"/>
+<rect x="99.49333333333334" y="220.0" width="40.34666666666667" height="140.0" fill="#0072B2"/>
+<text x="119.66666666666667" y="214.0" text-anchor="middle" font-size="10" font-family="Arial">1.00</text>
+<text x="119.66666666666667" y="376" text-anchor="middle" font-size="10" font-family="Arial">Seq.</text>
+<rect x="158.82666666666668" y="235.8921441156465" width="40.34666666666667" height="124.10785588435353" fill="#E69F00"/>
+<text x="179.00000000000003" y="229.8921441156465" text-anchor="middle" font-size="10" font-family="Arial">0.89</text>
+<text x="179.00000000000003" y="376" text-anchor="middle" font-size="10" font-family="Arial">2</text>
+<rect x="218.16000000000003" y="214.18130636806646" width="40.34666666666667" height="145.81869363193354" fill="#009E73"/>
+<text x="238.33333333333337" y="208.18130636806646" text-anchor="middle" font-size="10" font-family="Arial">1.04</text>
+<text x="238.33333333333337" y="376" text-anchor="middle" font-size="10" font-family="Arial">4</text>
+<rect x="277.49333333333334" y="250.91698372442224" width="40.34666666666667" height="109.08301627557776" fill="#D55E00"/>
+<text x="297.6666666666667" y="244.91698372442224" text-anchor="middle" font-size="10" font-family="Arial">0.78</text>
+<text x="297.6666666666667" y="376" text-anchor="middle" font-size="10" font-family="Arial">8</text>
+<rect x="336.8266666666667" y="246.00640158060116" width="40.34666666666667" height="113.99359841939885" fill="#CC79A7"/>
+<text x="357.00000000000006" y="240.00640158060116" text-anchor="middle" font-size="10" font-family="Arial">0.81</text>
+<text x="357.00000000000006" y="376" text-anchor="middle" font-size="10" font-family="Arial">Máx</text>
+<text x="625.0" y="60" text-anchor="middle" font-size="14" font-family="Arial" font-weight="bold">media.txt</text>
+<line x1="476.6666666666667" y1="360" x2="773.3333333333334" y2="360" stroke="black" stroke-width="1.2"/>
+<line x1="476.6666666666667" y1="80" x2="476.6666666666667" y2="360" stroke="black" stroke-width="1.2"/>
+<text x="424.6666666666667" y="220.0" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 424.6666666666667 220.0)">Speedup</text>
+<line x1="476.6666666666667" y1="360.0" x2="773.3333333333334" y2="360.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="470.6666666666667" y="364.0" text-anchor="end" font-size="10" font-family="Arial">0</text>
+<line x1="476.6666666666667" y1="290.0" x2="773.3333333333334" y2="290.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="470.6666666666667" y="294.0" text-anchor="end" font-size="10" font-family="Arial">0.5</text>
+<line x1="476.6666666666667" y1="220.0" x2="773.3333333333334" y2="220.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="470.6666666666667" y="224.0" text-anchor="end" font-size="10" font-family="Arial">1</text>
+<line x1="476.6666666666667" y1="150.0" x2="773.3333333333334" y2="150.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="470.6666666666667" y="154.0" text-anchor="end" font-size="10" font-family="Arial">1.5</text>
+<line x1="476.6666666666667" y1="80.0" x2="773.3333333333334" y2="80.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="470.6666666666667" y="84.0" text-anchor="end" font-size="10" font-family="Arial">2</text>
+<line x1="476.6666666666667" y1="220.0" x2="773.3333333333334" y2="220.0" stroke="#444444" stroke-width="1" stroke-dasharray="5,4"/>
+<rect x="486.16" y="220.0" width="40.34666666666667" height="140.0" fill="#0072B2"/>
+<text x="506.33333333333337" y="214.0" text-anchor="middle" font-size="10" font-family="Arial">1.00</text>
+<text x="506.33333333333337" y="376" text-anchor="middle" font-size="10" font-family="Arial">Seq.</text>
+<rect x="545.4933333333333" y="127.16618342502613" width="40.34666666666667" height="232.83381657497387" fill="#E69F00"/>
+<text x="565.6666666666666" y="121.16618342502613" text-anchor="middle" font-size="10" font-family="Arial">1.66</text>
+<text x="565.6666666666666" y="376" text-anchor="middle" font-size="10" font-family="Arial">2</text>
+<rect x="604.8266666666667" y="130.6381192649158" width="40.34666666666667" height="229.3618807350842" fill="#009E73"/>
+<text x="625.0" y="124.63811926491579" text-anchor="middle" font-size="10" font-family="Arial">1.64</text>
+<text x="625.0" y="376" text-anchor="middle" font-size="10" font-family="Arial">4</text>
+<rect x="664.1600000000001" y="180.79771474201524" width="40.34666666666667" height="179.20228525798476" fill="#D55E00"/>
+<text x="684.3333333333334" y="174.79771474201524" text-anchor="middle" font-size="10" font-family="Arial">1.28</text>
+<text x="684.3333333333334" y="376" text-anchor="middle" font-size="10" font-family="Arial">8</text>
+<rect x="723.4933333333333" y="204.98228006572893" width="40.34666666666667" height="155.01771993427107" fill="#CC79A7"/>
+<text x="743.6666666666666" y="198.98228006572893" text-anchor="middle" font-size="10" font-family="Arial">1.11</text>
+<text x="743.6666666666666" y="376" text-anchor="middle" font-size="10" font-family="Arial">Máx</text>
+<text x="1011.6666666666667" y="60" text-anchor="middle" font-size="14" font-family="Arial" font-weight="bold">grande.txt</text>
+<line x1="863.3333333333334" y1="360" x2="1160.0" y2="360" stroke="black" stroke-width="1.2"/>
+<line x1="863.3333333333334" y1="80" x2="863.3333333333334" y2="360" stroke="black" stroke-width="1.2"/>
+<text x="811.3333333333334" y="220.0" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 811.3333333333334 220.0)">Speedup</text>
+<line x1="863.3333333333334" y1="360.0" x2="1160.0" y2="360.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="857.3333333333334" y="364.0" text-anchor="end" font-size="10" font-family="Arial">0</text>
+<line x1="863.3333333333334" y1="290.0" x2="1160.0" y2="290.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="857.3333333333334" y="294.0" text-anchor="end" font-size="10" font-family="Arial">0.5</text>
+<line x1="863.3333333333334" y1="220.0" x2="1160.0" y2="220.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="857.3333333333334" y="224.0" text-anchor="end" font-size="10" font-family="Arial">1</text>
+<line x1="863.3333333333334" y1="150.0" x2="1160.0" y2="150.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="857.3333333333334" y="154.0" text-anchor="end" font-size="10" font-family="Arial">1.5</text>
+<line x1="863.3333333333334" y1="80.0" x2="1160.0" y2="80.0" stroke="#dddddd" stroke-width="0.8"/>
+<text x="857.3333333333334" y="84.0" text-anchor="end" font-size="10" font-family="Arial">2</text>
+<line x1="863.3333333333334" y1="220.0" x2="1160.0" y2="220.0" stroke="#444444" stroke-width="1" stroke-dasharray="5,4"/>
+<rect x="872.8266666666667" y="220.0" width="40.34666666666667" height="140.0" fill="#0072B2"/>
+<text x="893.0" y="214.0" text-anchor="middle" font-size="10" font-family="Arial">1.00</text>
+<text x="893.0" y="376" text-anchor="middle" font-size="10" font-family="Arial">Seq.</text>
+<rect x="932.1600000000001" y="142.01079106021237" width="40.34666666666667" height="217.98920893978763" fill="#E69F00"/>
+<text x="952.3333333333334" y="136.01079106021237" text-anchor="middle" font-size="10" font-family="Arial">1.56</text>
+<text x="952.3333333333334" y="376" text-anchor="middle" font-size="10" font-family="Arial">2</text>
+<rect x="991.4933333333333" y="102.29391346285445" width="40.34666666666667" height="257.70608653714555" fill="#009E73"/>
+<text x="1011.6666666666666" y="96.29391346285445" text-anchor="middle" font-size="10" font-family="Arial">1.84</text>
+<text x="1011.6666666666666" y="376" text-anchor="middle" font-size="10" font-family="Arial">4</text>
+<rect x="1050.8266666666668" y="122.21243212961821" width="40.34666666666667" height="237.7875678703818" fill="#D55E00"/>
+<text x="1071.0000000000002" y="116.21243212961821" text-anchor="middle" font-size="10" font-family="Arial">1.70</text>
+<text x="1071.0000000000002" y="376" text-anchor="middle" font-size="10" font-family="Arial">8</text>
+<rect x="1110.16" y="132.3605317872549" width="40.34666666666667" height="227.6394682127451" fill="#CC79A7"/>
+<text x="1130.3333333333335" y="126.3605317872549" text-anchor="middle" font-size="10" font-family="Arial">1.63</text>
+<text x="1130.3333333333335" y="376" text-anchor="middle" font-size="10" font-family="Arial">Máx</text>
+<rect x="225.0" y="440" width="12" height="12" fill="#0072B2"/>
+<text x="243.0" y="451" font-size="11" font-family="Arial">Sequencial</text>
+<rect x="375.0" y="440" width="12" height="12" fill="#E69F00"/>
+<text x="393.0" y="451" font-size="11" font-family="Arial">2 threads</text>
+<rect x="525.0" y="440" width="12" height="12" fill="#009E73"/>
+<text x="543.0" y="451" font-size="11" font-family="Arial">4 threads</text>
+<rect x="675.0" y="440" width="12" height="12" fill="#D55E00"/>
+<text x="693.0" y="451" font-size="11" font-family="Arial">8 threads</text>
+<rect x="825.0" y="440" width="12" height="12" fill="#CC79A7"/>
+<text x="843.0" y="451" font-size="11" font-family="Arial">Máx. CPUs lógicas (10)</text>
+<text x="600.0" y="480" text-anchor="middle" font-size="11" font-family="Arial" fill="#444444">Barras = média das repetições; linha tracejada = speedup 1 (sem ganho)</text>
+</svg>

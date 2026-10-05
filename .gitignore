@@ -1,0 +1,4 @@
+# binários gerados pela compilação
+bucket_sort
+thread_bucket_sort
+__pycache__/
