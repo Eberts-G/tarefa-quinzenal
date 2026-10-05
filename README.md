@@ -2,7 +2,12 @@
 
 Implementação sequencial e paralela (pthreads) do Bucket Sort em C, com comparação experimental de tempo. Problema 1 da Tarefa Semanal de Sistemas Operacionais.
 
-**Integrantes:** _(preencher)_
+**Integrantes:** _ ANA CLARA CAVASOTTO POLLA
+BRUNO MARTINS RAUBER 
+GISELA TALITA EBERTS
+GUILHERME RIBEIRO MACIEL
+MATHEUS LEVERENTZ DE LARA
+_
 
 ## Arquivos
 
