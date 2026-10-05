@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$ROOT_DIR"
 
-REPETICOES="${REPETICOES:-3}"       # mínimo exigido: 3
+REPETICOES="${REPETICOES:-10}"      # mínimo exigido: 3
 CFLAGS="-Wall -Wextra -O2 -std=c11" # mesma política de otimização nas duas versões
 ENTRADAS=(entradas/pequena.txt entradas/media.txt entradas/grande.txt)
 

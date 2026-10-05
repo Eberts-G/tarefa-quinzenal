@@ -52,7 +52,7 @@ Saída dos programas (`THREADS` e `MAX_CPUS_ONLINE` só na versão paralela):
 MODALIDADE: PTHREADS
 ARQUIVO: entradas/grande.txt
 THREADS: 4
-MAX_CPUS_ONLINE: 8
+MAX_CPUS_ONLINE: 10
 N: 400000
 VALIDO: SIM
 TEMPO_SEGUNDOS: 0.115200000
@@ -67,7 +67,7 @@ chmod +x benchmark_bucket_sort.sh
 ./benchmark_bucket_sort.sh
 ```
 
-O script mede, para cada entrada (pequena, média, grande), a versão sequencial e as versões paralelas com 2, 4, 8 threads e com o máximo de CPUs lógicas online. São 3 repetições por combinação; use `REPETICOES=5 ./benchmark_bucket_sort.sh` para mais. Ele aborta se alguma execução for inválida.
+O script mede, para cada entrada (pequena, média, grande), a versão sequencial e as versões paralelas com 2, 4, 8 threads e com o máximo de CPUs lógicas online. São 10 repetições por combinação por padrão, em alinhamento com os resultados publicados. Para definir outra quantidade, use `REPETICOES=10 ./benchmark_bucket_sort.sh`. Ele aborta se alguma execução for inválida.
 
 Colunas de `resultados/benchmark.csv`: `arquivo, configuracao, threads, iteracao, tempo_segundos, valido`. A coluna `threads` guarda o número real de threads usado, inclusive na configuração `max`, o que registra quando o máximo coincide com 2, 4 ou 8.
 
